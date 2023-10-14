@@ -1,1 +1,3 @@
 # NLP-korean-tweets
+
+This is the code and dataset I used for researching the public perception of freedom of the press in South Korea through Natural Language Processing (NLP) of tweets written in Korean. I carried out keyword extraction with Term Frequency-Inverse Document Frequency (TF-IDF), topic modeling with Latent Dirichlet Allocation (LDA), and clustering with K-means to a 70,111 tweets dataset. For obtaining the dataset I scraped tweets with the Twitter module of [snscrape](https://github.com/JustAnotherArchivist/snscrape), and for tokenizing, option okt.nouns of the Python package for NLP of Korean language [KoNLPy](https://konlpy.org/en/latest/).
